@@ -1,0 +1,11 @@
+[package]
+name = "sigmaos-archlinuxarm-keyring"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Contributors"]
+description = "SigmaOS archlinuxarm-keyring component (Arch Linux inspired)"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "sigmaos_archlinuxarm-keyring"
+path = "src/lib.rs"
